@@ -48,14 +48,14 @@ reformprogram_DifferentialEquationsClass         Differential Equation Class
 reformprogram_NurseEducation_text         Ce cours peut, lorsqu'il est correctement dispensé dans le cadre d'une formation complète, fournir aux détenus des connaissances essentielles, qui peuvent être utiles pour tenter de réussir une partie de l'examen infirmier gouvernemental actuel.
 reformprogram_PrisionPolicyEducation_text         This course teaches prison the rules and expectations. For example murder is never permitted.  
 reformprogram_SexualEducation_text         Many inmates lack even a basic understanding of how sex works. Teaches inmates about STDs, birth-control, and where babies come from.
-reformprogram_FirstAidEducation_text         Teaches inmates how to treat basic injuries and perform C.P.R. Passing this course qualifies inmates for supervised Medical Classroom practice work.
-reformprogram_EmergencyPreparednessEducation_text         Builds on First Aid by teaching inmates how to respond calmly to fires, injuries, severe weather, and other prison emergencies. Unlocks an advanced Medical Classroom practice path.
+reformprogram_FirstAidEducation_text         Teaches inmates how to treat basic injuries and perform C.P.R. The course focuses on calm, safe response to medical incidents.
+reformprogram_EmergencyPreparednessEducation_text         Builds on First Aid by teaching inmates how to respond calmly to fires, injuries, severe weather, and other prison emergencies.
 reformprogram_MoneyManagement_text         Most inmaats have no idea how to budget, save, invest, and manage credit. This course aims to help. This course teaches inmates how to budget, manage money, plan for expenses, manage credit, and balance a bank account. 
 reformprogram_LegalAid_text         Lawyers help inmates help themselves in their legal battles.  We don't defend them. But we do advise them on how to defend themselves, answer questions, and give advice.
-reformprogram_BasicHomeRepairEducation_text         The basics of how to fix things. Passing this course qualifies inmates for supervised Building Classroom practice work.
-reformprogram_FacilitiesMaintenanceEducation_text         Teaches basic building upkeep, inspection routines, safe reporting, and how to assist with supervised maintenance tasks. Unlocks a supervised Building Classroom practice path.
-reformprogram_HomeWiringEducation_text         How to safely and correctly install electrical wiring in a home, condo, or small apartment building. Adds a supervised Building Classroom practice qualification.
-reformprogram_PlumbingEducation_text         How to install, service, and replace water pipes big and small. Adds a supervised Building Classroom practice qualification.
+reformprogram_BasicHomeRepairEducation_text         The basics of how to fix things, including tool awareness, simple repairs, and safe maintenance habits.
+reformprogram_FacilitiesMaintenanceEducation_text         Teaches basic building upkeep, inspection routines, safe reporting, and maintenance safety.
+reformprogram_HomeWiringEducation_text         How to safely and correctly install electrical wiring in a home, condo, or small apartment building.
+reformprogram_PlumbingEducation_text         How to install, service, and replace water pipes big and small.
 reformprogram_ConstructionEngineeringEducation_text         How to design and build a building.
 reformprogram_ConstructionManagementEducation_text         How to manage the designing and building of a building.
 reformprogram_HeatingAndCoolingRepairEducation_text         How to install, repair, and replace all modern heating and cooling systems.
@@ -70,10 +70,10 @@ reformprogram_CustodialEngineeringEducation_text Teaches inmates what they need 
 reformprogram_PrisonSafety_text   How not to die in prison and what to do in an emergency.
 reformprogram_CollegeLevelEducation_text Offer college level classes for college credit via a special partnership between the bureau of prisons and the department of education
 reformprogram_LegalEducation_text Learn the skills necessary to work as a legal secretary.
-reformprogram_LawnCare_text   How to cultivate the perfect yard. Passing this course qualifies inmates for supervised Outdoor Classroom practice work.
-reformprogram_OutdoorMaintenanceSafety_text   Teaches safe tool handling, groundskeeping routines, and supervised outdoor maintenance habits. Unlocks an Outdoor Classroom practice path.
-reformprogram_HorticultureEducation_text   A deeper outdoor course covering plant care, soil basics, and long-term landscape maintenance. Unlocks an advanced Outdoor Classroom practice path.
-reformprogram_BuilderCertificationTraining_text   A practical certification course for inmates who completed repair, wiring, plumbing, and heating and cooling classes. Unlocks advanced Building Classroom practice.
+reformprogram_LawnCare_text   How to cultivate the perfect yard, work safely outdoors, and keep grounds orderly.
+reformprogram_OutdoorMaintenanceSafety_text   Teaches safe tool handling, groundskeeping routines, and outdoor maintenance habits.
+reformprogram_HorticultureEducation_text   A deeper outdoor course covering plant care, soil basics, and long-term landscape maintenance.
+reformprogram_BuilderCertificationTraining_text   A practical certification course for inmates who completed repair, wiring, plumbing, and heating and cooling classes.
 reformprogram_DifferentialEquationsClass_text   Fancy math.
 #
 

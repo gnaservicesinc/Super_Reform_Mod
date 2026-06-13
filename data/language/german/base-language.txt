@@ -51,19 +51,19 @@ reformprogram_PrisionPolicyEducation_text         				Dieser Kurs lehrt den Insa
 #
 reformprogram_SexualEducation_text         						Vielen Häftlingen fehlt sogar ein grundlegendes Verständnis dafür, wie Sex funktioniert. Lehrt Insassen über Geschlechtskrankheiten, Geburtenkontrolle und woher Babys kommen.
 #
-reformprogram_FirstAidEducation_text         					Unterrichtet Insassen, wie sie einfache Verletzungen behandeln und Wiederbelebung leisten. Wer den Kurs besteht, qualifiziert sich für beaufsichtigte Praxisarbeit im medizinischen Unterrichtsraum.
-reformprogram_EmergencyPreparednessEducation_text              Baut auf Erste Hilfe auf und lehrt Insassen, ruhig auf Brände, Verletzungen, Unwetter und andere Gefängnisnotfälle zu reagieren. Schaltet einen erweiterten Praxisweg im medizinischen Unterrichtsraum frei.
+reformprogram_FirstAidEducation_text         					Unterrichtet Insassen, wie sie einfache Verletzungen behandeln und Wiederbelebung leisten. Der Kurs konzentriert sich auf ruhiges und sicheres Verhalten bei medizinischen Vorfällen.
+reformprogram_EmergencyPreparednessEducation_text              Baut auf Erste Hilfe auf und lehrt Insassen, ruhig auf Brände, Verletzungen, Unwetter und andere Gefängnisnotfälle zu reagieren.
 #
 reformprogram_MoneyManagement_text         						Dieser Kurs lehrt den Insassen den Umgang mit Geld, Investment und Ausgaben plant.
 #
 reformprogram_LegalAid_text         							Anwälte helfen Häftlingen sich in ihren Rechtsstreitigkeiten selbst zu helfen. Sie beantworten Fragen und geben Ratschläge.
 #
-reformprogram_BasicHomeRepairEducation_text         			Die Grundlagen, wie man Dinge repariert. Wer den Kurs besteht, qualifiziert sich für beaufsichtigte Praxisarbeit im Bauwesen-Unterrichtsraum.
-reformprogram_FacilitiesMaintenanceEducation_text              Vermittelt einfache Gebäudepflege, Kontrollroutinen, sichere Meldung von Problemen und Hilfe bei beaufsichtigten Wartungsaufgaben. Schaltet einen beaufsichtigten Praxisweg im Bauwesen-Unterrichtsraum frei.
+reformprogram_BasicHomeRepairEducation_text         			Die Grundlagen, wie man Dinge repariert, einschließlich Werkzeugkunde, einfacher Reparaturen und sicherer Wartungsgewohnheiten.
+reformprogram_FacilitiesMaintenanceEducation_text              Vermittelt einfache Gebäudepflege, Kontrollroutinen, sichere Meldung von Problemen und Wartungssicherheit.
 #
-reformprogram_HomeWiringEducation_text         					Wie man sicher und korrekt elektrische Verkabelung in einem Haus, einer Eigentumswohnung oder einem kleinen Mehrfamilienhaus installiert. Fügt eine beaufsichtigte Praxisqualifikation im Bauwesen-Unterrichtsraum hinzu.
+reformprogram_HomeWiringEducation_text         					Wie man sicher und korrekt elektrische Verkabelung in einem Haus, einer Eigentumswohnung oder einem kleinen Mehrfamilienhaus installiert.
 #
-reformprogram_PlumbingEducation_text         					Wie man kleine und große Wasserleitungen installiert, wartet und ersetzt. Fügt eine beaufsichtigte Praxisqualifikation im Bauwesen-Unterrichtsraum hinzu.
+reformprogram_PlumbingEducation_text         					Wie man kleine und große Wasserleitungen installiert, wartet und ersetzt.
 # 
 reformprogram_ConstructionEngineeringEducation_text         		Insassen werden die Grundlagen zum Bau von einem Fundament gelehrt.
 #
@@ -93,13 +93,13 @@ reformprogram_CollegeLevelEducation_text 						Bieten Sie höher bildende Kurse 
 #
 reformprogram_LegalEducation_text 								Erlerne die notwendigen Fähigkeiten, um als juristische Sekretär zu arbeiten.
 #
-reformprogram_LawnCare_text   									Wie man perfekt den Garten pflegt. Wer den Kurs besteht, qualifiziert sich für beaufsichtigte Praxisarbeit im Freiluft-Unterrichtsraum.
+reformprogram_LawnCare_text   									Wie man einen gepflegten Außenbereich anlegt, draußen sicher arbeitet und die Anlagen ordentlich hält.
 #
-reformprogram_OutdoorMaintenanceSafety_text                    Vermittelt sicheren Werkzeugumgang, Routinen für Grünflächenpflege und beaufsichtigte Außenwartung. Schaltet einen Praxisweg im Freiluft-Unterrichtsraum frei.
+reformprogram_OutdoorMaintenanceSafety_text                    Vermittelt sicheren Werkzeugumgang, Routinen für Grünflächenpflege und Außenwartung.
 #
-reformprogram_HorticultureEducation_text                       Ein vertiefender Außenkurs über Pflanzenpflege, Bodengrundlagen und langfristige Landschaftspflege. Schaltet einen erweiterten Praxisweg im Freiluft-Unterrichtsraum frei.
+reformprogram_HorticultureEducation_text                       Ein vertiefender Außenkurs über Pflanzenpflege, Bodengrundlagen und langfristige Landschaftspflege.
 #
-reformprogram_BuilderCertificationTraining_text                Ein praktischer Zertifizierungskurs für Insassen, die Reparatur-, Verkabelungs-, Sanitär- sowie Heizungs- und Klimakurse abgeschlossen haben. Schaltet erweiterte Praxis im Bauwesen-Unterrichtsraum frei.
+reformprogram_BuilderCertificationTraining_text                Ein praktischer Zertifizierungskurs für Insassen, die Reparatur-, Verkabelungs-, Sanitär- sowie Heizungs- und Klimakurse abgeschlossen haben.
 #
 reformprogram_DifferentialEquationsClass_text   				Höhere Mathematik. Nach 25 Jahren ist alles möglich!
 #

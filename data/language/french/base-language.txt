@@ -48,14 +48,14 @@ reformprogram_DifferentialEquationsClass         Differential Equation Class
 reformprogram_NurseEducation_text         Ce cours peut, lorsqu'il est correctement dispensé dans le cadre d'une formation complète, fournir aux détenus des connaissances essentielles, qui peuvent être utiles pour tenter de réussir une partie de l'examen infirmier gouvernemental actuel.
 reformprogram_PrisionPolicyEducation_text         This course teaches prison the rules and expectations. For example murder is never permitted.  
 reformprogram_SexualEducation_text         Many inmates lack even a basic understanding of how sex works. Teaches inmates about STDs, birth-control, and where babies come from.
-reformprogram_FirstAidEducation_text         Apprend aux détenus à traiter les blessures simples et à pratiquer la réanimation cardio-pulmonaire. La réussite du cours qualifie les détenus pour un travail pratique supervisé dans la salle de classe médicale.
-reformprogram_EmergencyPreparednessEducation_text         S'appuie sur le secourisme pour apprendre aux détenus à réagir calmement aux incendies, blessures, intempéries graves et autres urgences en prison. Débloque un parcours avancé de pratique dans la salle de classe médicale.
+reformprogram_FirstAidEducation_text         Apprend aux détenus à traiter les blessures simples et à pratiquer la réanimation cardio-pulmonaire. Le cours met l'accent sur une réponse calme et sûre aux incidents médicaux.
+reformprogram_EmergencyPreparednessEducation_text         S'appuie sur le secourisme pour apprendre aux détenus à réagir calmement aux incendies, blessures, intempéries graves et autres urgences en prison.
 reformprogram_MoneyManagement_text         Most inmaats have no idea how to budget, save, invest, and manage credit. This course aims to help. This course teaches inmates how to budget, manage money, plan for expenses, manage credit, and balance a bank account. 
 reformprogram_LegalAid_text         Lawyers help inmates help themselves in their legal battles.  We don't defend them. But we do advise them on how to defend themselves, answer questions, and give advice.
-reformprogram_BasicHomeRepairEducation_text         Les bases pour réparer les choses. La réussite du cours qualifie les détenus pour un travail pratique supervisé dans la salle de classe de bâtiment.
-reformprogram_FacilitiesMaintenanceEducation_text         Enseigne l'entretien courant des bâtiments, les rondes d'inspection, le signalement sûr des problèmes et l'aide aux tâches de maintenance supervisées. Débloque un parcours de pratique supervisé dans la salle de classe de bâtiment.
-reformprogram_HomeWiringEducation_text         Comment installer correctement et en toute sécurité le câblage électrique d'une maison, d'un appartement ou d'un petit immeuble. Ajoute une qualification de pratique supervisée dans la salle de classe de bâtiment.
-reformprogram_PlumbingEducation_text         Comment installer, entretenir et remplacer les petites et grandes canalisations d'eau. Ajoute une qualification de pratique supervisée dans la salle de classe de bâtiment.
+reformprogram_BasicHomeRepairEducation_text         Les bases pour réparer les choses, notamment la connaissance des outils, les petites réparations et les habitudes de maintenance sûres.
+reformprogram_FacilitiesMaintenanceEducation_text         Enseigne l'entretien courant des bâtiments, les rondes d'inspection, le signalement sûr des problèmes et la sécurité en maintenance.
+reformprogram_HomeWiringEducation_text         Comment installer correctement et en toute sécurité le câblage électrique d'une maison, d'un appartement ou d'un petit immeuble.
+reformprogram_PlumbingEducation_text         Comment installer, entretenir et remplacer les petites et grandes canalisations d'eau.
 reformprogram_ConstructionEngineeringEducation_text         Comment concevoir et construire un bâtiment.
 reformprogram_ConstructionManagementEducation_text         Comment gérer la conception et la construction d'un bâtiment.
 reformprogram_HeatingAndCoolingRepairEducation_text         How to install, repair, and replace all modern heating and cooling systems.
@@ -70,10 +70,10 @@ reformprogram_CustodialEngineeringEducation_text Teaches inmates what they need 
 reformprogram_PrisonSafety_text   Comment ne pas mourir en prison et quoi faire en cas d'urgence.
 reformprogram_CollegeLevelEducation_text Offer college level classes for college credit via a special partnership between the bureau of prisons and the department of education
 reformprogram_LegalEducation_text Learn the skills necessary to work as a legal secretary.
-reformprogram_LawnCare_text   Comment cultiver une pelouse parfaite. La réussite du cours qualifie les détenus pour un travail pratique supervisé dans la salle de classe extérieure.
-reformprogram_OutdoorMaintenanceSafety_text   Enseigne la manipulation sûre des outils, les routines d'entretien des espaces verts et les habitudes de maintenance extérieure supervisée. Débloque un parcours de pratique dans la salle de classe extérieure.
-reformprogram_HorticultureEducation_text   Un cours extérieur plus approfondi sur le soin des plantes, les bases du sol et l'entretien durable des paysages. Débloque un parcours avancé de pratique dans la salle de classe extérieure.
-reformprogram_BuilderCertificationTraining_text   Un cours pratique de certification pour les détenus ayant terminé les cours de réparation, câblage, plomberie, chauffage et climatisation. Débloque une pratique avancée dans la salle de classe de bâtiment.
+reformprogram_LawnCare_text   Comment cultiver une pelouse parfaite, travailler dehors en sécurité et garder les terrains en ordre.
+reformprogram_OutdoorMaintenanceSafety_text   Enseigne la manipulation sûre des outils, les routines d'entretien des espaces verts et les habitudes de maintenance extérieure.
+reformprogram_HorticultureEducation_text   Un cours extérieur plus approfondi sur le soin des plantes, les bases du sol et l'entretien durable des paysages.
+reformprogram_BuilderCertificationTraining_text   Un cours pratique de certification pour les détenus ayant terminé les cours de réparation, câblage, plomberie, chauffage et climatisation.
 reformprogram_DifferentialEquationsClass_text   Fancy math.
 #
 

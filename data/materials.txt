@@ -31,9 +31,6 @@ END
 BEGIN Room
     Name                 MedicalClassroom
     Research             Education
-    Properties           PrisonersCanWork
-    Qualification        FirstAidEducation
-    WorkGroup            MedicalClassroom
     BEGIN Requirement Type Indoor  END
     BEGIN Requirement Type MinimumSize x 6 y 6 END
     BEGIN Requirement Type Object  Id MedicalBed  END
@@ -52,9 +49,6 @@ END
 BEGIN Room
     Name                 OutdoorClassroom
     Research             Education
-    Properties           PrisonersCanWork
-    Qualification        LawnCare
-    WorkGroup            OutdoorClassroom
     BEGIN Requirement Type Outdoor END
     BEGIN Requirement Type MinimumSize x 10 y 10 END
     BEGIN Requirement Type Object  Id Bench  END
@@ -69,9 +63,6 @@ END
 BEGIN Room
     Name                 BuildingClassroom
     Research             Education
-    Properties           PrisonersCanWork
-    Qualification        BasicHomeRepairEducation
-    WorkGroup            BuildingClassroom
     BEGIN Requirement Type Indoor  END
     BEGIN Requirement Type MinimumSize x 10 y 10 END
     BEGIN Requirement Type Object  Id SchoolDesk  END
