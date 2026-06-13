@@ -1,5 +1,5 @@
 #
-#Staff 
+#Staff
 #
 
 BEGIN Object     
@@ -28,9 +28,12 @@ END
 #
 
 
-BEGIN Room       
-    Name                 MedicalClassroom  
-    Research             Education  
+BEGIN Room
+    Name                 MedicalClassroom
+    Research             Education
+    Properties           PrisonersCanWork
+    Qualification        FirstAidEducation
+    WorkGroup            MedicalClassroom
     BEGIN Requirement Type Indoor  END
     BEGIN Requirement Type MinimumSize x 6 y 6 END
     BEGIN Requirement Type Object  Id MedicalBed  END
@@ -38,7 +41,7 @@ BEGIN Room
     BEGIN Requirement Type Object  Id OfficeDesk END
     BEGIN Requirement Type Object  Id FilingCabinet  END
     BEGIN Requirement Type Object  Id Chair  END
-    BEGIN Requirement Type Object  Id Table  END 
+    BEGIN Requirement Type Object  Id Table  END
     BEGIN Requirement Type Object  Id MorgueSlab  END
     BEGIN Contraband    Id      Needle          END
     BEGIN Contraband    Id      Poison          END
@@ -46,9 +49,12 @@ BEGIN Room
     BEGIN Contraband    Id      Scissors        END
 END
 
-BEGIN Room       
-    Name                 OutdoorClassroom  
-    Research             Education  
+BEGIN Room
+    Name                 OutdoorClassroom
+    Research             Education
+    Properties           PrisonersCanWork
+    Qualification        LawnCare
+    WorkGroup            OutdoorClassroom
     BEGIN Requirement Type Outdoor END
     BEGIN Requirement Type MinimumSize x 10 y 10 END
     BEGIN Requirement Type Object  Id Bench  END
@@ -60,16 +66,19 @@ BEGIN Room
     BEGIN Contraband    Id      WoodenPickAxe   END
 END
 
-BEGIN Room       
-    Name                 BuildingClassroom  
-    Research             Education  
+BEGIN Room
+    Name                 BuildingClassroom
+    Research             Education
+    Properties           PrisonersCanWork
+    Qualification        BasicHomeRepairEducation
+    WorkGroup            BuildingClassroom
     BEGIN Requirement Type Indoor  END
     BEGIN Requirement Type MinimumSize x 10 y 10 END
     BEGIN Requirement Type Object  Id SchoolDesk  END
     BEGIN Requirement Type Object  Id OfficeDesk END
     BEGIN Requirement Type Object  Id FilingCabinet  END
     BEGIN Requirement Type Object  Id Chair  END
-    BEGIN Requirement Type Object  Id Table  END 
+    BEGIN Requirement Type Object  Id Table  END
     BEGIN Requirement Type Object  Id Drain  END
     BEGIN Requirement Type Object  Id ShowerHead  END
     BEGIN Requirement Type Object  Id Toilet  END

@@ -1,0 +1,63 @@
+BEGIN Job
+    Name                    FirstAidPractice
+    JobTime                 30
+    Worker                  Prisoner
+    Qualification           FirstAidEducation
+    WorkGroup               MedicalClassroom
+END
+
+BEGIN Job
+    Name                    EmergencyPreparednessPractice
+    JobTime                 30
+    Worker                  Prisoner
+    Qualification           EmergencyPreparednessEducation
+    WorkGroup               MedicalClassroom
+END
+
+BEGIN Job
+    Name                    OutdoorMaintenancePractice
+    JobTime                 30
+    Worker                  Prisoner
+    Qualification           OutdoorMaintenanceSafety
+    WorkGroup               OutdoorClassroom
+END
+
+BEGIN Job
+    Name                    HorticulturePractice
+    JobTime                 30
+    Worker                  Prisoner
+    Qualification           HorticultureEducation
+    WorkGroup               OutdoorClassroom
+END
+
+BEGIN Job
+    Name                    FacilitiesMaintenancePractice
+    JobTime                 30
+    Worker                  Prisoner
+    Qualification           FacilitiesMaintenanceEducation
+    WorkGroup               BuildingClassroom
+END
+
+BEGIN Job
+    Name                    WiringPractice
+    JobTime                 30
+    Worker                  Prisoner
+    Qualification           HomeWiringEducation
+    WorkGroup               BuildingClassroom
+END
+
+BEGIN Job
+    Name                    PlumbingPractice
+    JobTime                 30
+    Worker                  Prisoner
+    Qualification           PlumbingEducation
+    WorkGroup               BuildingClassroom
+END
+
+BEGIN Job
+    Name                    BuilderPractice
+    JobTime                 30
+    Worker                  Prisoner
+    Qualification           BuilderCertificationTraining
+    WorkGroup               BuildingClassroom
+END

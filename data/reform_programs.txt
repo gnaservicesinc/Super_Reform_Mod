@@ -118,7 +118,7 @@ BEGIN Program
     Difficulty      3
     Room            MedicalClassroom
     Equipment       SchoolDesk
-    TeacherEquipment Needle
+    TeacherEquipment Chair
     Teacher         Doctor
     Research        Education
     Intake          Voluntary
@@ -126,6 +126,28 @@ BEGIN Program
     Properties      Academic
     Properties      Repeatable 
     DischargeNeed   Drugs  
+END
+
+BEGIN Program
+    Name            EmergencyPreparednessEducation
+    SessionCost     -250
+    Places          10
+    SessionLength   60
+    NumSessions     4
+    Difficulty      8
+    Room            MedicalClassroom
+    Equipment       SchoolDesk
+    TeacherEquipment Chair
+    Teacher         Doctor
+    Research        Education
+    Intake          Voluntary
+    Qualification   FirstAidEducation
+    Properties      StudentsSit
+    Properties      Academic
+    Properties      Repeatable
+    ProgressEffect  calming
+    EffectChargeRate 0.75
+    WaitTime        6
 END
 
 BEGIN Program
@@ -159,7 +181,6 @@ BEGIN Program
     Teacher         Janitor
     Research        Education
     Intake          Voluntary
-    Properties      StudentsStand
     Properties      Academic
     Properties      Repeatable   
 END
@@ -182,6 +203,48 @@ BEGIN Program
     ProgressEffect  calming
     EffectChargeRate 1.0
     WaitTime        4    
+END
+
+BEGIN Program
+    Name            OutdoorMaintenanceSafety
+    SessionCost     -250
+    Places          15
+    SessionLength   60
+    NumSessions     3
+    Difficulty      8
+    Room            OutdoorClassroom
+    Equipment       Bench
+    Teacher         Gardener
+    Research        Education
+    Intake          Voluntary
+    Qualification   LawnCare
+    Properties      StudentsSit
+    Properties      Academic
+    Properties      Repeatable
+    ProgressEffect  calming
+    EffectChargeRate 0.75
+    WaitTime        6
+END
+
+BEGIN Program
+    Name            HorticultureEducation
+    SessionCost     -450
+    Places          10
+    SessionLength   90
+    NumSessions     6
+    Difficulty      15
+    Room            OutdoorClassroom
+    Equipment       Bench
+    Teacher         Gardener
+    Research        Education
+    Intake          Voluntary
+    Qualification   OutdoorMaintenanceSafety
+    Properties      StudentsSit
+    Properties      Academic
+    Properties      Repeatable
+    ProgressEffect  calming
+    EffectChargeRate 0.75
+    WaitTime        8
 END
 
 BEGIN Program
@@ -241,6 +304,27 @@ BEGIN Program
     Intake          Voluntary
     Properties      StudentsSit
     Properties      Academic
+END
+
+BEGIN Program
+    Name            FacilitiesMaintenanceEducation
+    SessionCost     -350
+    Places          10
+    SessionLength   90
+    NumSessions     4
+    Difficulty      12
+    Room            BuildingClassroom
+    Equipment       SchoolDesk
+    Teacher         Workman
+    Research        Education
+    Intake          Voluntary
+    Qualification   BasicHomeRepairEducation
+    Properties      StudentsSit
+    Properties      Academic
+    Properties      Repeatable
+    ProgressEffect  calming
+    EffectChargeRate 0.5
+    WaitTime        6
 END
 
 
@@ -456,6 +540,30 @@ BEGIN Program
     Properties      StaffOnly
     Properties      OutsideOfWork
     WaitTime        12  
+END
+
+BEGIN Program
+
+    Name            EmergencyResponseTraining
+    SessionCost     -750
+    Places          5
+    SessionLength   60
+    NumSessions     2
+    Difficulty      5
+    Room            Classroom
+    Equipment       SchoolDesk
+    Teacher         Chief
+    SecondTeacher   Doctor
+    Research        Education
+    Research        Security
+    Intake          Guards
+    Qualification   OngoingGuardTraining
+    Properties      StudentsSit
+    Properties      Academic
+    Properties      Repeatable
+    Properties      StaffOnly
+    Properties      OutsideOfWork
+    WaitTime        12
 END
 
 BEGIN Program

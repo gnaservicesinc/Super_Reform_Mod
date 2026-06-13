@@ -17,9 +17,11 @@ reformprogram_NurseEducation         							Pflegeausbildung Kurs
 reformprogram_PrisionPolicyEducation         					Gefängnispolitik Kurs
 reformprogram_SexualEducation         							Sexuelle Aufklärung
 reformprogram_FirstAidEducation         						Erste Hilfe Kurs
+reformprogram_EmergencyPreparednessEducation                    Notfallvorbereitung
 reformprogram_MoneyManagement         							Geldmanagement Kurs
 reformprogram_LegalAid         									Rechtshilfe Ausbildung
 reformprogram_BasicHomeRepairEducation         					Grundlegende Heimwerker Ausbildung 
+reformprogram_FacilitiesMaintenanceEducation                    Gebäudewartung
 reformprogram_HomeWiringEducation         						Grundlagen der Elektronik Ausbildung
 reformprogram_PlumbingEducation         						Sanitär Ausbildung
 reformprogram_ConstructionEngineeringEducation         			Bauwesen & Maschinenbau Ausbildung
@@ -30,12 +32,15 @@ reformprogram_LifeSkillsEducation         						Kurs zur bewältigung der Lebens
 reformprogram_ContinuingEducation         						Weiterführende Ausbildung
 reformprogram_GuardTraining         							Wachausbildung
 reformprogram_OngoingGuardTraining        						Erweiterte Wachenausbildung
+reformprogram_EmergencyResponseTraining                         Notfallreaktionstraining
 reformprogram_SpecialEducation         							Sonderschulwesen
 reformprogram_CustodialEngineeringEducation         			Custodial Engineering Education
 reformprogram_PrisonSafety   									Gefängnissicherheit
 reformprogram_CollegeLevelEducation 							Fachhochschulabschluss
 reformprogram_LegalEducation 									Juristische Ausbildung  
 reformprogram_LawnCare 											Gartenpflege Ausbildung
+reformprogram_OutdoorMaintenanceSafety                          Sicherheit bei Außenarbeiten
+reformprogram_HorticultureEducation                             Gartenbauausbildung
 reformprogram_BuilderCertificationTraining         				Zertifizierungsschulung zum Baumeister
 reformprogram_DifferentialEquationsClass         				Differentialgleichungen Ausbildung
 
@@ -46,21 +51,23 @@ reformprogram_PrisionPolicyEducation_text         				Dieser Kurs lehrt den Insa
 #
 reformprogram_SexualEducation_text         						Vielen Häftlingen fehlt sogar ein grundlegendes Verständnis dafür, wie Sex funktioniert. Lehrt Insassen über Geschlechtskrankheiten, Geburtenkontrolle und woher Babys kommen.
 #
-reformprogram_FirstAidEducation_text         					Unterrichtet Insassen, wie man Verletzungen behandelt und Mund zu Mund Beatmung. In der Theorie könnten sie also jemandem helfen, der verletzt wurde. Nicht dass sie es tun würden.
+reformprogram_FirstAidEducation_text         					Unterrichtet Insassen, wie sie einfache Verletzungen behandeln und Wiederbelebung leisten. Wer den Kurs besteht, qualifiziert sich für beaufsichtigte Praxisarbeit im medizinischen Unterrichtsraum.
+reformprogram_EmergencyPreparednessEducation_text              Baut auf Erste Hilfe auf und lehrt Insassen, ruhig auf Brände, Verletzungen, Unwetter und andere Gefängnisnotfälle zu reagieren. Schaltet einen erweiterten Praxisweg im medizinischen Unterrichtsraum frei.
 #
 reformprogram_MoneyManagement_text         						Dieser Kurs lehrt den Insassen den Umgang mit Geld, Investment und Ausgaben plant.
 #
 reformprogram_LegalAid_text         							Anwälte helfen Häftlingen sich in ihren Rechtsstreitigkeiten selbst zu helfen. Sie beantworten Fragen und geben Ratschläge.
 #
-reformprogram_BasicHomeRepairEducation_text         			Die Grundlagen, wie man Dinge repariert. Beantwortet Fragen wie z.B. Was sind Werkzeuge und wie man einen Hammer benutzt, um einen Nagel zu treffen.
+reformprogram_BasicHomeRepairEducation_text         			Die Grundlagen, wie man Dinge repariert. Wer den Kurs besteht, qualifiziert sich für beaufsichtigte Praxisarbeit im Bauwesen-Unterrichtsraum.
+reformprogram_FacilitiesMaintenanceEducation_text              Vermittelt einfache Gebäudepflege, Kontrollroutinen, sichere Meldung von Problemen und Hilfe bei beaufsichtigten Wartungsaufgaben. Schaltet einen beaufsichtigten Praxisweg im Bauwesen-Unterrichtsraum frei.
 #
-reformprogram_HomeWiringEducation_text         					Wie man sicher und korrekt elektrische Verkabelung in einem Haus, einer Eigentumswohnung oder einem kleinen Mehrfamilienhaus installiert, das den modernen Bauvorschriften entspricht.
+reformprogram_HomeWiringEducation_text         					Wie man sicher und korrekt elektrische Verkabelung in einem Haus, einer Eigentumswohnung oder einem kleinen Mehrfamilienhaus installiert. Fügt eine beaufsichtigte Praxisqualifikation im Bauwesen-Unterrichtsraum hinzu.
 #
-reformprogram_PlumbingEducation_text         					Insassen wird die Wartung, Verlegung von Wasserleitungen gelehrt.
+reformprogram_PlumbingEducation_text         					Wie man kleine und große Wasserleitungen installiert, wartet und ersetzt. Fügt eine beaufsichtigte Praxisqualifikation im Bauwesen-Unterrichtsraum hinzu.
 # 
-reformprogram_ConstructionEngineeringEducation         			Insassen werden die Grundlagen zum Bau von einem Fundament gelehrt.
+reformprogram_ConstructionEngineeringEducation_text         		Insassen werden die Grundlagen zum Bau von einem Fundament gelehrt.
 #
-reformprogram_ConstructionManagementEducation         			Insassen lernen, Innenräume eines Gebäudes richtig auszustatten.
+reformprogram_ConstructionManagementEducation_text         		Insassen lernen, Innenräume eines Gebäudes richtig auszustatten.
 #
 reformprogram_HeatingAndCoolingRepairEducation_text             Insassen lernen die richtige Montage von Heizkörper und Klimaanlagen.
 #
@@ -74,17 +81,25 @@ reformprogram_GuardTraining_text         						Wie man nicht so viel lutscht, wi
 #
 reformprogram_OngoingGuardTraining_text         				Informiert die Wächter über die neuesten Regeln und Richtlinienänderungen, lehrt Grundfertigkeiten, um sie zu schärfen und stellt sicher, dass alle Wächter über die neuesten Trends und Techniken im Wächterwesen sowie über alle Änderungen der relevanten Gesetze auf dem Laufenden gehalten werden. Der Kurs ist obligatorisch.
 # 
+reformprogram_EmergencyResponseTraining_text                   Auffrischung nur für Personal über koordinierte Notfallreaktion, Triage, Evakuierung und Kommunikation bei Vorfällen.
+#
 reformprogram_SpecialEducation_text         					Einige (die meisten) Insassen benötigen zusätzliche Hilfe zu lernen.
 #
 reformprogram_CustodialEngineeringEducation_text 				Unterrichtet Insassen, was sie für die Zertifizierung und den Einsatz an einer Drehbank wissen müssen.
 #
-reformprogram__PrisonSafety_text   								Wie man im Gefängnis überlebt und was man im Notfall tut.
+reformprogram_PrisonSafety_text   								Wie man im Gefängnis überlebt und was man im Notfall tut.
 #
 reformprogram_CollegeLevelEducation_text 						Bieten Sie höher bildende Kurse an, um Insassen Stipendien zu ermöglichen die eine frühzeitige Entlassung durch die Partnerschaft zwischen dem Gefängnisbüro und dem Bildungsministerium möglich ist.
 #
 reformprogram_LegalEducation_text 								Erlerne die notwendigen Fähigkeiten, um als juristische Sekretär zu arbeiten.
 #
-reformprogram_LawnCare_text   									Wie man perfekt den Garten pflegt.
+reformprogram_LawnCare_text   									Wie man perfekt den Garten pflegt. Wer den Kurs besteht, qualifiziert sich für beaufsichtigte Praxisarbeit im Freiluft-Unterrichtsraum.
+#
+reformprogram_OutdoorMaintenanceSafety_text                    Vermittelt sicheren Werkzeugumgang, Routinen für Grünflächenpflege und beaufsichtigte Außenwartung. Schaltet einen Praxisweg im Freiluft-Unterrichtsraum frei.
+#
+reformprogram_HorticultureEducation_text                       Ein vertiefender Außenkurs über Pflanzenpflege, Bodengrundlagen und langfristige Landschaftspflege. Schaltet einen erweiterten Praxisweg im Freiluft-Unterrichtsraum frei.
+#
+reformprogram_BuilderCertificationTraining_text                Ein praktischer Zertifizierungskurs für Insassen, die Reparatur-, Verkabelungs-, Sanitär- sowie Heizungs- und Klimakurse abgeschlossen haben. Schaltet erweiterte Praxis im Bauwesen-Unterrichtsraum frei.
 #
 reformprogram_DifferentialEquationsClass_text   				Höhere Mathematik. Nach 25 Jahren ist alles möglich!
 #
