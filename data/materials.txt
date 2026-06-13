@@ -73,7 +73,7 @@ BEGIN Room
     BEGIN Requirement Type Object  Id Drain  END
     BEGIN Requirement Type Object  Id ShowerHead  END
     BEGIN Requirement Type Object  Id Toilet  END
-    BEGIN Requirement Type Object  Id Bench  END
+    BEGIN LikelyObject                    Id Bench  END
     BEGIN Contraband    Id      Saw             END
     BEGIN Contraband    Id      Screwdriver     END
     BEGIN Contraband    Id      Hammer          END
@@ -84,4 +84,3 @@ BEGIN Room
     BEGIN Contraband    Id      Lighter         END
     BEGIN Contraband    Id      Booze           END
 END
-

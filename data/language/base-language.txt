@@ -49,8 +49,8 @@ reformprogram_LegalAid_text         Lawyers help inmates help themselves in thei
 reformprogram_BasicHomeRepairEducation_text         The basics of how to fix things. Addresses questions such as what are tools? and how to use a hammer to hit a nail.
 reformprogram_HomeWiringEducation_text         How to safely and correctly install electrical wiring in a home, condo, or small apartment building that is up to modern building code.  
 reformprogram_PlumbingEducation_text         How to install, service, and replace water pipes  big and small. 
-reformprogram_ConstructionEngineeringEducation         How to design and build a building.
-reformprogram_ConstructionManagementEducation         How to manage the designing and building of a building. 
+reformprogram_ConstructionEngineeringEducation_text         How to design and build a building.
+reformprogram_ConstructionManagementEducation_text         How to manage the designing and building of a building.
 reformprogram_HeatingAndCoolingRepairEducation_text         How to install, repair, and replace all modern heating and cooling systems.
 reformprogram_ConductReview_text        When an inmate steps too far out of line the Chief of the guards may complain about an inmates conduct to the Office of the Warden. The warden will then, along with the Chief, bring the inmate in for an in in-depth review of an inmates actions and conduct.
 reformprogram_LifeSkillsEducation_text         How to get by in the world. Life skills.
@@ -59,10 +59,11 @@ reformprogram_GuardTraining_text         How not to suck as much as being a guar
 reformprogram_OngoingGuardTraining_text         Updates guards on the latests rules and policy changes, refreshes basics skills to help sharpen them, and ensures all Guards get updated on the latest trends and techniques in guarding as well as any changes to relevant laws. Course is MANDATORY. 
 reformprogram_SpecialEducation_text         Some (most) inmates need  additional help with learning.
 reformprogram_CustodialEngineeringEducation_text Teaches inmates what they need to know for certification and employment in a custodial engineering roll.
-reformprogram__PrisonSafety_text   How not to die in prison and what to do in an emergency.
+reformprogram_PrisonSafety_text   How not to die in prison and what to do in an emergency.
 reformprogram_CollegeLevelEducation_text Offer college level classes for college credit via a special partnership between the bureau of prisons and the department of education
 reformprogram_LegalEducation_text Learn the skills necessary to work as a legal secretary.
 reformprogram_LawnCare_text   How to cultivate the perfect yard.
+reformprogram_BuilderCertificationTraining_text   A practical certification course for inmates who have completed the basic repair, wiring, plumbing, and heating and cooling classes.
 reformprogram_DifferentialEquationsClass_text   Fancy math.
 #
 

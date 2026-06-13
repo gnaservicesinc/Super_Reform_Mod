@@ -224,7 +224,7 @@ BEGIN Program
     ProgressEffect  calming
     EffectChargeRate 1.0 
     DischargeNeed   Freedom 
- WaitTime            
+    WaitTime        4
 END
 
 BEGIN Program
