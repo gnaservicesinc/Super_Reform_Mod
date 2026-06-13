@@ -1,0 +1,481 @@
+BEGIN Program
+    Name            CollegeLevelEducation
+    SessionCost     -5000
+    Places          5
+    SessionLength   120
+    NumSessions     20
+    Difficulty      50
+    Room            Classroom
+    Equipment       SchoolDesk
+    Teacher         Professor
+    Research        Education
+    Intake          Voluntary
+    Qualification   GeneralEducation
+    Properties      StudentsSit
+    Properties      Academic
+END
+
+BEGIN Program
+    Name            DifferentialEquationsClass
+    SessionCost     -5000
+    Places          5
+    SessionLength   90
+    NumSessions     20
+    Difficulty      35
+    Room            Classroom
+    Equipment       SchoolDesk
+    Teacher         Professor
+    Research        Education
+    Intake          Voluntary
+    Qualification   GeneralEducation
+    Properties      StudentsSit
+    Properties      Academic
+END
+
+BEGIN Program
+    Name            LegalEducation
+    SessionCost     -5000
+    Places          10
+    SessionLength   60
+    NumSessions     20
+    Difficulty      60
+    Room            Classroom
+    Equipment       SchoolDesk
+    Teacher         Lawyer
+    Research        Education
+    Intake          Voluntary
+    Qualification   CollegeLevelEducation
+    Properties      StudentsSit
+    Properties      Academic
+END
+
+BEGIN Program
+    Name            NurseEducation
+    SessionCost     -5000
+    Places          15
+    SessionLength   60
+    NumSessions     20
+    Difficulty      60
+    Room            MedicalClassroom
+    Equipment       SchoolDesk
+    Teacher         Doctor
+    Research        Education
+    Intake          Voluntary
+    Qualification   CollegeLevelEducation
+    Properties      StudentsSit
+    Properties      Academic
+END
+
+BEGIN Program
+    Name            PrisionPolicyEducation
+    SessionCost     -100
+    Places          15
+    SessionLength   60
+    NumSessions     1
+    Difficulty      1
+    Room            Yard
+    Equipment       Bench
+    Teacher         Guard
+    Research        Education
+    Intake          Mandatory
+    Properties      Academic
+    ProgressEffect  calming
+    DischargeNeed   Freedom 
+    ChargeNeed   Safety 
+    EffectChargeRate 1.0
+END
+
+
+    
+BEGIN Program
+    Name            SexualEducation
+    SessionCost     -140
+    Places          15
+    SessionLength   60
+    NumSessions     5
+    Difficulty      1
+    Room            MedicalClassroom
+    Equipment       SchoolDesk
+    TeacherEquipment Chair
+    Teacher         Doctor
+    Research        Education
+    Intake          Voluntary
+    Properties      StudentsSit
+    Properties      Academic
+    Properties      Repeatable
+    ProgressEffect  calming
+    EffectChargeRate 1.0
+    DischargeNeed   Family 
+    WaitTime        6    
+END
+
+BEGIN Program
+    Name            FirstAidEducation
+    SessionCost     -110
+    Places          10
+    SessionLength   60
+    NumSessions     15
+    Difficulty      3
+    Room            MedicalClassroom
+    Equipment       SchoolDesk
+    TeacherEquipment Needle
+    Teacher         Doctor
+    Research        Education
+    Intake          Voluntary
+    Properties      StudentsSit
+    Properties      Academic
+    Properties      Repeatable 
+    DischargeNeed   Drugs  
+END
+
+BEGIN Program
+    Name            MoneyManagement
+    SessionCost     -100
+    Places          15
+    SessionLength   60
+    NumSessions     5
+    Difficulty      10
+    Room            Classroom
+    Equipment       SchoolDesk
+    Teacher         Accountant
+    Research        Education
+    Intake          Voluntary
+    Properties      StudentsSit
+    Properties      Academic
+    Properties      Repeatable 
+    ProgressEffect  calming
+    EffectChargeRate 1.0
+    WaitTime        4    
+END
+
+BEGIN Program
+    Name            CustodialEngineeringEducation 
+    SessionCost     -175
+    Places          10
+    SessionLength   60
+    NumSessions     20
+    Difficulty      0
+    Room            CleaningCupboard
+    Teacher         Janitor
+    Research        Education
+    Intake          Voluntary
+    Properties      StudentsStand
+    Properties      Academic
+    Properties      Repeatable   
+END
+
+BEGIN Program
+    Name            LawnCare 
+    SessionCost     -155
+    Places          15
+    SessionLength   60
+    NumSessions     5
+    Difficulty      2
+    Room            OutdoorClassroom
+    Equipment       Bench
+    Teacher         Gardener
+    Research        Education
+    Intake          Voluntary
+    Properties      StudentsSit
+    Properties      Academic
+    Properties      Repeatable
+    ProgressEffect  calming
+    EffectChargeRate 1.0
+    WaitTime        4    
+END
+
+BEGIN Program
+    Name            PrisonSafety 
+    SessionCost     -102
+    Places          5
+    SessionLength   60
+    NumSessions     1
+    Difficulty      0
+    Room            Security
+    Equipment       Bench
+    Teacher         Guard
+    Research        Education
+    Research        Security
+    Intake          Voluntary
+    Properties      StudentsSit
+    Properties      Academic
+    Properties      Repeatable  
+    ProgressEffect  calming
+    EffectChargeRate 1.0
+    ChargeNeed   Safety
+    WaitTime        4   
+END
+
+BEGIN Program
+    Name            LegalAid
+    SessionCost     -255
+    Places          1
+    SessionLength   60
+    NumSessions     1
+    Difficulty      15
+    Room            Office
+    Equipment       Chair
+    Teacher         Lawyer
+    Research        Education
+    Intake          Voluntary
+    Properties      StudentsSit
+    Properties      Academic
+    Properties      Repeatable
+    ProgressEffect  calming
+    EffectChargeRate 1.0 
+    DischargeNeed   Freedom 
+ WaitTime            
+END
+
+BEGIN Program
+    Name            BasicHomeRepairEducation
+    SessionCost     -400
+    Places          15
+    SessionLength   120
+    NumSessions     5
+    Difficulty      5
+    Room            BuildingClassroom
+    Equipment       SchoolDesk
+    Teacher         Workman
+    Research        Education
+    Intake          Voluntary
+    Properties      StudentsSit
+    Properties      Academic
+END
+
+
+BEGIN Program
+    Name            HomeWiringEducation
+    SessionCost     -300
+    Places          15
+    SessionLength   120
+    NumSessions     3
+    Difficulty      8
+    Room            BuildingClassroom
+    Equipment       SchoolDesk
+    Teacher         Workman
+    Research        Education
+    Intake          Voluntary
+    Qualification   BasicHomeRepairEducation
+    Properties      StudentsSit
+    Properties      Academic
+END
+
+
+BEGIN Program
+    Name            PlumbingEducation
+    SessionCost     -700
+    Places          15
+    SessionLength   60
+    NumSessions     3
+    Difficulty      10
+    Room            BuildingClassroom
+    Equipment       SchoolDesk
+    Teacher         Workman
+    Research        Education
+    Intake          Voluntary
+    Qualification   BasicHomeRepairEducation
+    Properties      StudentsSit
+    Properties      Academic
+END
+
+BEGIN Program
+    Name            BuilderCertificationTraining
+    SessionCost     -2500
+    Places          5
+    SessionLength   60
+    NumSessions     15
+    Difficulty      30
+    Room            BuildingClassroom
+    Equipment       SchoolDesk
+    Teacher         Workman
+    Research        Education
+    Intake          Voluntary
+    Qualification   BasicHomeRepairEducation
+    Qualification   HeatingAndCoolingRepairEducation
+    Qualification   PlumbingEducation
+    Qualification   HomeWiringEducation
+    Properties      StudentsSit
+    Properties      Academic
+END
+#cleaningcupboard
+BEGIN Program
+    Name            ConstructionEngineeringEducation
+    SessionCost     -2500
+    Places          5
+    SessionLength   60
+    NumSessions     15
+    Difficulty      30
+    Room            Classroom
+    Equipment       SchoolDesk
+    Teacher         Professor 
+    Research        Education
+    Intake          Voluntary
+    Qualification   BuilderCertificationTraining
+    Properties      StudentsSit
+    Properties      Academic
+END
+
+BEGIN Program
+    Name            ConstructionManagementEducation
+    SessionCost     -5000
+    Places          15
+    SessionLength   180
+    NumSessions     20
+    Difficulty      40
+    Room            Classroom
+    Equipment       SchoolDesk
+    Teacher         Professor
+    Research        Education
+    Intake          Voluntary
+    Qualification   ConstructionEngineeringEducation
+    Properties      StudentsSit
+    Properties      Academic
+END
+
+BEGIN Program
+    Name            HeatingAndCoolingRepairEducation
+    SessionCost     -650
+    Places          15
+    SessionLength   60
+    NumSessions     5
+    Difficulty      8
+    Room            BuildingClassroom
+    Equipment       SchoolDesk
+    Teacher         Workman
+    Research        Education
+    Intake          Voluntary
+    Qualification   BasicHomeRepairEducation
+    Properties      StudentsSit
+    Properties      Academic
+END
+
+BEGIN Program
+    Name           ConductReview
+    SessionCost     0
+    Places          1
+    SessionLength   60
+    NumSessions     1
+    Difficulty      0
+    Room            Office
+    Equipment       Chair
+    Teacher         Warden
+    SecondTeacher   Chief
+    Research        Education
+    Intake          ReferralViolence
+    Properties      CanEscortStudent	
+    Properties      StudentsSit
+    Properties      Repeatable
+    ProgressEffect  calming
+    EffectChargeRate 1.0  
+    DischargeNeed   Privacy
+END
+
+BEGIN Program
+    Name            LifeSkillsEducation
+    SessionCost     -500
+    Places          15
+    SessionLength   120
+    NumSessions     1
+    Difficulty      0
+    Room            Classroom
+    Equipment       SchoolDesk
+    Teacher         Workman
+    SecondTeacher   Cook
+    Research        Education
+    Intake          Voluntary
+    Properties      StudentsSit
+    Properties      Academic
+    Properties      Repeatable
+    ProgressEffect  calming
+    EffectChargeRate 1.0
+    DischargeNeed   Freedom 
+    WaitTime        3    
+END
+
+     
+BEGIN Program
+    Name            ContinuingEducation
+    SessionCost     -5000
+    Places          15
+    SessionLength   60
+    NumSessions     1
+    Difficulty      0
+    Room            Classroom
+    Equipment       SchoolDesk
+    Teacher         Professor
+    Research        Education
+    Intake          Voluntary
+    Qualification   CollegeLevelEducation
+    Properties      StudentsSit
+    Properties      Academic
+    Properties      Repeatable
+    ProgressEffect  calming
+    EffectChargeRate 1.0 
+    WaitTime        3  
+END
+
+BEGIN Program
+
+    Name            GuardTraining
+    SessionCost     -500
+    Places          5
+    SessionLength   60
+    NumSessions     1
+    Difficulty      0
+    Room            Classroom
+    Equipment       SchoolDesk
+    Teacher         Chief
+    Research        Education
+    Intake          Mandatory
+    Intake          Guards
+    Properties      StudentsSit
+    Properties      Academic
+    Properties      StaffOnly
+    Properties      OutsideOfWork
+    WaitTime        3  
+END
+
+BEGIN Program
+
+    Name            OngoingGuardTraining
+    SessionCost     -500
+    Places          5
+    SessionLength   60
+    NumSessions     1
+    Difficulty      0
+    Room            Classroom
+    Equipment       SchoolDesk
+    Teacher         Chief
+    Research        Education
+    Intake          Guards
+    Qualification   GuardTraining
+    Properties      StudentsSit
+    Properties      Academic
+    Properties      Repeatable
+    Properties      StaffOnly
+    Properties      OutsideOfWork
+    WaitTime        12  
+END
+
+BEGIN Program
+    Name            SpecialEducation
+    SessionCost     -2000
+    Places          5
+    SessionLength   120
+    NumSessions     1
+    Difficulty      60
+    Room            Classroom
+    Equipment       SchoolDesk
+    Teacher         Professor
+    SecondTeacher   Psychologist
+    Research        Education
+    Intake          Voluntary
+    Properties      StudentsSit
+    Properties      Academic
+    Properties      Repeatable
+    ProgressEffect  calming
+    EffectChargeRate 1.0  
+    WaitTime        6
+    DischargeNeed   Literacy    
+END

@@ -1,0 +1,74 @@
+# =============================================================================
+# Build Toolbar
+# =============================================================================
+
+buildtoolbar_popup_room_OutdoorClassroom         Attendez, il est indiqué ici que le jardinier se verra attribuer une salle de classe unique, dans le seul but d’apprendre aux prisonniers à garder des pelouses? Sérieusement! Cela ne peut pas être correct, pouvons-nous obtenir cette enquête?
+buildtoolbar_popup_room_BuildingClassroom      Une classe spécialisée pour enseigner tous les aspects de la construction et de la sécurité.
+buildtoolbar_popup_room_MedicalClassroom      Une classe spécialisée pour la formation médicale.
+
+#
+#Objects
+#
+object_professor                          	Professor
+#
+#Reform Programs
+#
+reformprogram_NurseEducation         Nursing Education
+reformprogram_PrisionPolicyEducation         Prison Policy Education  
+reformprogram_SexualEducation         SexEd
+reformprogram_FirstAidEducation         First Aid
+reformprogram_MoneyManagement         Money Management
+reformprogram_LegalAid         Legal Aid
+reformprogram_BasicHomeRepairEducation         Basic Home Repair
+reformprogram_HomeWiringEducation         Home Wiring Education
+reformprogram_PlumbingEducation         Plumbing Education
+reformprogram_ConstructionEngineeringEducation         Construction Engineering Education
+reformprogram_ConstructionManagementEducation         Construction Management
+reformprogram_HeatingAndCoolingRepairEducation         Heating and Cooling Repair
+reformprogram_ConductReview        Conduct Review
+reformprogram_LifeSkillsEducation         Life Skills Education
+reformprogram_ContinuingEducation         Continuing Education 
+reformprogram_GuardTraining         Guard Training
+reformprogram_OngoingGuardTraining        Ongoing Guard Training 
+reformprogram_SpecialEducation         Special Education
+reformprogram_CustodialEngineeringEducation         Custodial Engineering Education
+reformprogram_PrisonSafety   Prison Safety
+reformprogram_CollegeLevelEducation College Level Education 
+reformprogram_LegalEducation Legal Education  
+reformprogram_LawnCare Lawn Care
+reformprogram_BuilderCertificationTraining         Builder Certification Training
+reformprogram_DifferentialEquationsClass         Differential Equation Class       
+
+
+reformprogram_NurseEducation_text         Ce cours peut, lorsqu'il est correctement dispensé dans le cadre d'une formation complète, fournir aux détenus des connaissances essentielles, qui peuvent être utiles pour tenter de réussir une partie de l'examen infirmier gouvernemental actuel.
+reformprogram_PrisionPolicyEducation_text         This course teaches prison the rules and expectations. For example murder is never permitted.  
+reformprogram_SexualEducation_text         Many inmates lack even a basic understanding of how sex works. Teaches inmates about STDs, birth-control, and where babies come from.
+reformprogram_FirstAidEducation_text         Teaches inmates how to treat basic injuries and perform C.P.R. so in theory they could help someone injured. Not that they will.
+reformprogram_MoneyManagement_text         Most inmaats have no idea how to budget, save, invest, and manage credit. This course aims to help. This course teaches inmates how to budget, manage money, plan for expenses, manage credit, and balance a bank account. 
+reformprogram_LegalAid_text         Lawyers help inmates help themselves in their legal battles.  We don't defend them. But we do advise them on how to defend themselves, answer questions, and give advice.
+reformprogram_BasicHomeRepairEducation_text         The basics of how to fix things. Addresses questions such as what are tools? and how to use a hammer to hit a nail.
+reformprogram_HomeWiringEducation_text         How to safely and correctly install electrical wiring in a home, condo, or small apartment building that is up to modern building code.  
+reformprogram_PlumbingEducation_text         How to install, service, and replace water pipes  big and small. 
+reformprogram_ConstructionEngineeringEducation         How to design and build a building.
+reformprogram_ConstructionManagementEducation         How to manage the designing and building of a building. 
+reformprogram_HeatingAndCoolingRepairEducation_text         How to install, repair, and replace all modern heating and cooling systems.
+reformprogram_ConductReview_text        When an inmate steps too far out of line the Chief of the guards may complain about an inmates conduct to the Office of the Warden. The warden will then, along with the Chief, bring the inmate in for an in in-depth review of an inmates actions and conduct.
+reformprogram_LifeSkillsEducation_text         How to get by in the world. Life skills.
+reformprogram_ContinuingEducation_text         Because you never stop learning.
+reformprogram_GuardTraining_text         How not to suck as much as being a guard. Course covers mandatory sexual harassment prevention training, mandatory sensitivity training,  ethics training, and other mandatory training as required by law. 
+reformprogram_OngoingGuardTraining_text         Updates guards on the latests rules and policy changes, refreshes basics skills to help sharpen them, and ensures all Guards get updated on the latest trends and techniques in guarding as well as any changes to relevant laws. Course is MANDATORY. 
+reformprogram_SpecialEducation_text         Some (most) inmates need  additional help with learning.
+reformprogram_CustodialEngineeringEducation_text Teaches inmates what they need to know for certification and employment in a custodial engineering roll.
+reformprogram__PrisonSafety_text   How not to die in prison and what to do in an emergency.
+reformprogram_CollegeLevelEducation_text Offer college level classes for college credit via a special partnership between the bureau of prisons and the department of education
+reformprogram_LegalEducation_text Learn the skills necessary to work as a legal secretary.
+reformprogram_LawnCare_text   How to cultivate the perfect yard.
+reformprogram_DifferentialEquationsClass_text   Fancy math.
+#
+
+#
+#rooms
+
+room_MedicalClassroom                      	Medical Classroom
+room_OutdoorClassroom                      Outdoor Classroom
+room_BuildingClassroom                      Building Classroom

@@ -1,0 +1,87 @@
+#
+#Staff 
+#
+
+BEGIN Object     
+    Name                 Professor
+    Price                -47500  
+    RenderDepth          2
+    BlockedBy            Wall  
+    BlockedBy            StaticObject  
+    BlockedBy            UtilityStation
+	ViewRange            5
+	Properties           Entity
+    Properties           Administrator    
+    Properties           Staff
+    Research             Education
+    BEGIN   Sprite
+        x 0 
+        y 0  
+        w 4  
+        h 4  
+        RotateType 1
+    END
+END
+
+#
+#Rooms
+#
+
+
+BEGIN Room       
+    Name                 MedicalClassroom  
+    Research             Education  
+    BEGIN Requirement Type Indoor  END
+    BEGIN Requirement Type MinimumSize x 6 y 6 END
+    BEGIN Requirement Type Object  Id MedicalBed  END
+    BEGIN Requirement Type Object  Id SchoolDesk END
+    BEGIN Requirement Type Object  Id OfficeDesk END
+    BEGIN Requirement Type Object  Id FilingCabinet  END
+    BEGIN Requirement Type Object  Id Chair  END
+    BEGIN Requirement Type Object  Id Table  END 
+    BEGIN Requirement Type Object  Id MorgueSlab  END
+    BEGIN Contraband    Id      Needle          END
+    BEGIN Contraband    Id      Poison          END
+    BEGIN Contraband    Id      Medicine        END
+    BEGIN Contraband    Id      Scissors        END
+END
+
+BEGIN Room       
+    Name                 OutdoorClassroom  
+    Research             Education  
+    BEGIN Requirement Type Outdoor END
+    BEGIN Requirement Type MinimumSize x 10 y 10 END
+    BEGIN Requirement Type Object  Id Bench  END
+    BEGIN Requirement Type Object  Id Table  END 
+    BEGIN Contraband    Id      Poison          END
+    BEGIN Contraband    Id      Medicine        END
+    BEGIN Contraband    Id      Scissors        END
+    BEGIN Contraband    Id      Saw             END
+    BEGIN Contraband    Id      WoodenPickAxe   END
+END
+
+BEGIN Room       
+    Name                 BuildingClassroom  
+    Research             Education  
+    BEGIN Requirement Type Indoor  END
+    BEGIN Requirement Type MinimumSize x 10 y 10 END
+    BEGIN Requirement Type Object  Id SchoolDesk  END
+    BEGIN Requirement Type Object  Id OfficeDesk END
+    BEGIN Requirement Type Object  Id FilingCabinet  END
+    BEGIN Requirement Type Object  Id Chair  END
+    BEGIN Requirement Type Object  Id Table  END 
+    BEGIN Requirement Type Object  Id Drain  END
+    BEGIN Requirement Type Object  Id ShowerHead  END
+    BEGIN Requirement Type Object  Id Toilet  END
+    BEGIN Requirement Type Object  Id Bench  END
+    BEGIN Contraband    Id      Saw             END
+    BEGIN Contraband    Id      Screwdriver     END
+    BEGIN Contraband    Id      Hammer          END
+    BEGIN Contraband    Id      Drill           END
+    BEGIN Contraband    Id      Shank           END
+    BEGIN Contraband    Id      WoodenPickAxe   END
+    BEGIN Contraband    Id      Cigs            END
+    BEGIN Contraband    Id      Lighter         END
+    BEGIN Contraband    Id      Booze           END
+END
+

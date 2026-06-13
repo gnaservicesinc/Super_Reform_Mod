@@ -1,0 +1,97 @@
+﻿# =============================================================================
+# Build Toolbar
+# =============================================================================
+
+buildtoolbar_popup_room_OutdoorClassroom        Warte... Der Gärtner bekommt ein spezielles Klassenzimmer, nur um Rasenpflege zu lehren? Ernsthaft!?
+buildtoolbar_popup_room_BuildingClassroom      Ein spezialisiertes Klassenzimmer für die Vermittlung aller Aspekte des Bauwesens und der Sicherheit.
+buildtoolbar_popup_room_MedicalClassroom      Ein spezielles Klassenzimmer für die medizinische Ausbildung. 
+
+#
+#Objects
+#
+object_professor                          	Professor
+#
+#Reform Programs
+#
+reformprogram_NurseEducation         							Pflegeausbildung Kurs
+reformprogram_PrisionPolicyEducation         					Gefängnispolitik Kurs
+reformprogram_SexualEducation         							Sexuelle Aufklärung
+reformprogram_FirstAidEducation         						Erste Hilfe Kurs
+reformprogram_MoneyManagement         							Geldmanagement Kurs
+reformprogram_LegalAid         									Rechtshilfe Ausbildung
+reformprogram_BasicHomeRepairEducation         					Grundlegende Heimwerker Ausbildung 
+reformprogram_HomeWiringEducation         						Grundlagen der Elektronik Ausbildung
+reformprogram_PlumbingEducation         						Sanitär Ausbildung
+reformprogram_ConstructionEngineeringEducation         			Bauwesen & Maschinenbau Ausbildung
+reformprogram_ConstructionManagementEducation         			Bauleitung Ausbildung
+reformprogram_HeatingAndCoolingRepairEducation         			Heizung & Klima Monteur Ausbildung
+reformprogram_ConductReview        								Überprüfung durchführen
+reformprogram_LifeSkillsEducation         						Kurs zur bewältigung der Lebenssituation
+reformprogram_ContinuingEducation         						Weiterführende Ausbildung
+reformprogram_GuardTraining         							Wachausbildung
+reformprogram_OngoingGuardTraining        						Erweiterte Wachenausbildung
+reformprogram_SpecialEducation         							Sonderschulwesen
+reformprogram_CustodialEngineeringEducation         			Custodial Engineering Education
+reformprogram_PrisonSafety   									Gefängnissicherheit
+reformprogram_CollegeLevelEducation 							Fachhochschulabschluss
+reformprogram_LegalEducation 									Juristische Ausbildung  
+reformprogram_LawnCare 											Gartenpflege Ausbildung
+reformprogram_BuilderCertificationTraining         				Zertifizierungsschulung zum Baumeister
+reformprogram_DifferentialEquationsClass         				Differentialgleichungen Ausbildung
+
+
+reformprogram_NurseEducation_text         						Dieser Kurs lehrt Insassen, was sie wissen müssen, um die staatliche Krankenpflegeprüfung zu bestehen.
+#
+reformprogram_PrisionPolicyEducation_text         				Dieser Kurs lehrt den Insassen die Gefängnispolitik. Mord ist niemals erlaubt!  
+#
+reformprogram_SexualEducation_text         						Vielen Häftlingen fehlt sogar ein grundlegendes Verständnis dafür, wie Sex funktioniert. Lehrt Insassen über Geschlechtskrankheiten, Geburtenkontrolle und woher Babys kommen.
+#
+reformprogram_FirstAidEducation_text         					Unterrichtet Insassen, wie man Verletzungen behandelt und Mund zu Mund Beatmung. In der Theorie könnten sie also jemandem helfen, der verletzt wurde. Nicht dass sie es tun würden.
+#
+reformprogram_MoneyManagement_text         						Dieser Kurs lehrt den Insassen den Umgang mit Geld, Investment und Ausgaben plant.
+#
+reformprogram_LegalAid_text         							Anwälte helfen Häftlingen sich in ihren Rechtsstreitigkeiten selbst zu helfen. Sie beantworten Fragen und geben Ratschläge.
+#
+reformprogram_BasicHomeRepairEducation_text         			Die Grundlagen, wie man Dinge repariert. Beantwortet Fragen wie z.B. Was sind Werkzeuge und wie man einen Hammer benutzt, um einen Nagel zu treffen.
+#
+reformprogram_HomeWiringEducation_text         					Wie man sicher und korrekt elektrische Verkabelung in einem Haus, einer Eigentumswohnung oder einem kleinen Mehrfamilienhaus installiert, das den modernen Bauvorschriften entspricht.
+#
+reformprogram_PlumbingEducation_text         					Insassen wird die Wartung, Verlegung von Wasserleitungen gelehrt.
+# 
+reformprogram_ConstructionEngineeringEducation         			Insassen werden die Grundlagen zum Bau von einem Fundament gelehrt.
+#
+reformprogram_ConstructionManagementEducation         			Insassen lernen, Innenräume eines Gebäudes richtig auszustatten.
+#
+reformprogram_HeatingAndCoolingRepairEducation_text             Insassen lernen die richtige Montage von Heizkörper und Klimaanlagen.
+#
+reformprogram_ConductReview_text        						Wenn ein Häftling zu weit aus der Reihe tanzt, kann sich der Chef der Wachen über das Verhalten der Häftlinge beim Büro des Aufsehers beschweren. Der Aufseher wird dann, zusammen mit dem Chief, den Insassen zu einer gründlichen Überprüfung der Handlungen und Verhaltensweisen der Insassen einladen.
+#
+reformprogram_LifeSkillsEducation_text         					Bewältigung der Lebenssituation nach der Entlassung.
+#
+reformprogram_ContinuingEducation_text         					Im Leben lernt man nie aus, also weiter auf die Schulbank und werde klüger!
+#
+reformprogram_GuardTraining_text         						Wie man nicht so viel lutscht, wie ein Wächter! Der Kurs umfasst obligatorische Präventionstrainings zur Prävention sexueller Belästigung, obligatorische Sensibilisierungstrainings, Ethiktrainings und andere gesetzlich vorgeschriebene Schulungen.
+#
+reformprogram_OngoingGuardTraining_text         				Informiert die Wächter über die neuesten Regeln und Richtlinienänderungen, lehrt Grundfertigkeiten, um sie zu schärfen und stellt sicher, dass alle Wächter über die neuesten Trends und Techniken im Wächterwesen sowie über alle Änderungen der relevanten Gesetze auf dem Laufenden gehalten werden. Der Kurs ist obligatorisch.
+# 
+reformprogram_SpecialEducation_text         					Einige (die meisten) Insassen benötigen zusätzliche Hilfe zu lernen.
+#
+reformprogram_CustodialEngineeringEducation_text 				Unterrichtet Insassen, was sie für die Zertifizierung und den Einsatz an einer Drehbank wissen müssen.
+#
+reformprogram__PrisonSafety_text   								Wie man im Gefängnis überlebt und was man im Notfall tut.
+#
+reformprogram_CollegeLevelEducation_text 						Bieten Sie höher bildende Kurse an, um Insassen Stipendien zu ermöglichen die eine frühzeitige Entlassung durch die Partnerschaft zwischen dem Gefängnisbüro und dem Bildungsministerium möglich ist.
+#
+reformprogram_LegalEducation_text 								Erlerne die notwendigen Fähigkeiten, um als juristische Sekretär zu arbeiten.
+#
+reformprogram_LawnCare_text   									Wie man perfekt den Garten pflegt.
+#
+reformprogram_DifferentialEquationsClass_text   				Höhere Mathematik. Nach 25 Jahren ist alles möglich!
+#
+
+#
+#rooms
+
+room_MedicalClassroom                      	Medizinischer Unterrichtsraum
+room_OutdoorClassroom                       Freiluft Unterrichtsraum
+room_BuildingClassroom                      Bauwesen Unterrichtsraum
